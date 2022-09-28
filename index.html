@@ -4,8 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akhan name identifier</title>
-    <Link rel ="stylesheet" href="css.css"></Link>
+    <title>Akhan Name identifier</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <Link rel ="stylesheet" href="style.css"></Link>
+</head>
+<body>
+    <div class="card">
+        <div class="card text-center">  
+        <div class="card text-bg-primary">
+          <div class="card-body">
+          <div class="card-header">
+            
+            Know Your Akhan Name.
+            <P class="card-text">In Ghana, children are given their first name (Akhan name) according to the day of the week they were born.</P>
+                <p class="card-text">This application takes a birthday and calculates the day of the week they were born & depending on their gender outputs Akhan Name.</P>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card text-bg-info">
+                <div class="card-body">
+                 <h5 class="card-title"><h3>Here are the Akhan names according to days of the week and gender;</h3>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Male</th>
+                        <th scope="col">Day</th>
+                        <th scope="col">Female</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>kwasi</td>
+                        <td>Sunday</td>
+                        <td>Akosua</td>
+                      </tr>
+                      <tr>
+                          <td>kwandwo</td>
+                          <td>Monday</td>
+                          <td>Adwoa</td>
+                        </tr>
+                        <tr>
+                          <td>Kwabena</td>
+                          <td>Tuesday</td>
+                          <td>Abenna</td>
+                        </tr>
+                        <tr>
+                          <td>kwaku</td>
+                          <td>Wednesday</td>
+                          <td>Aku</td>
+                        </tr>
+                        <tr>
+                          <td>yaw</td>
+                          <td>Thursday</td>
+                          <td>Yaa</td>
+                        </tr>
+                        <tr>
+                          <td>Kofi</td>
+                          <td>Friday</td>
+                          <td>Afua</td>
+                        </tr>
+                        <tr>
+                          <td>kwame</td>
+                          <td>Saturday</td>
+                          <td>Ama</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card text-center">
+                <div class= "card text-bg-info">
+                  <div class="card-body">
+                    
+                    <h5 class="card-title"><h3>Fill in the form.</h3>
+                    <br>
+                    <div id="error"></div>
+                    <br>
+                    <div class form-check>
+                      <input class = form-check-input type="radio" name="gender" value="Female" required>
+                      <label class = form-check-label for ="female">Female</label>
+                      <br>
+                      <br>
+                 
+                  <div class form-check>
+                      <input class = form-check-input type="radio" name="gender" value="Male" required>
+                      <label class = form-check-label for="male">Male</label>
+                    
+                    </div>
+                    <br>
+                    <br>
+                 <div>
+                <label for="birthday">Enter Birthday</label> <br><br>
+                <input type="date" name="birthday" id="birthday" placeholder="YYYYMMMDD"maxlenght="2022-09-18" minlenght="1920-01-01" required>
+                </div>
+                <br>
+                <div class= "button" color="btn btn-primary">
+                  
+              
+              <button type="button" onclick = "myFunction()" >Submit</button>
+              <br>
+              <br>                  
+                      
+              <h2 id ="message" class="output"></h2>
+              </div>
+              </div>
+              </form>
+              
+        </div>       
 
-   </head>
+    
+</body>
+</html>
