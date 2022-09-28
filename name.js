@@ -9,16 +9,13 @@ var birthday ="null";
 
 
 // get users input gender and birthday.
-    var gender = document.querySelector('input[type="radio"]:checked');
-    alert(gender.value);      
-    
-    if (gender.value ===  ' ' || gender.value == null) {
-   alert("Gender is required")}
 
+    var gender = document.querySelector('input[type="radio"]:checked');     
+     
     var birthday = document.getElementById("birthday");
     
-   var year =  birthday.value;
-    alert(year);
+    var year =  birthday.value;
+    
 
 // calculate the day of the week, from birthday.
     var DD = year.slice(0,1);
@@ -28,13 +25,13 @@ var birthday ="null";
 
    var day = parseInt(((( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7).toFixed(0)));
 
-    alert(day);
     
+
 // use switch case expression to get Akhan name.
 var x = day;
 var y = 0;
 var m = gender.value;
-alert(m);
+
 
 if(m === "male");
 switch(akhan = (x+y)){
