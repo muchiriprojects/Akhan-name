@@ -19,6 +19,7 @@ var birthday ="null";
     
    var year =  birthday.value;
     alert(year);
+
 // calculate the day of the week, from birthday.
     var DD = year.slice(0,1);
     var MM = year.slice(2,3);
@@ -28,6 +29,7 @@ var birthday ="null";
    var day = parseInt(((( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7).toFixed(0)));
 
     alert(day);
+    
 // use switch case expression to get Akhan name.
 var x = day;
 var y = 0;
