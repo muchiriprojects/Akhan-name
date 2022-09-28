@@ -5,7 +5,7 @@ Akhan name lookup app.
 Regina Muchiri
 
 ##Description of project
-Consist of app where use input is used to derive Akhan name.
+Consist of app where user input is used to derive Akhan name.
 
 ##Project setup instructions
 use javascript to create an Akhan name lookup app.
@@ -15,3 +15,4 @@ https://muchiriprojects.github.io/Akhan-name
 
 ##copyright and license information
 @ 2022 Regina.
+cdcd Ak
